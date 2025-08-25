@@ -22,57 +22,57 @@ Persistir datos en LocalStorage
 
 - React
 
-TypeScript
+- TypeScript
 
-Vite
+- Vite
 
-Tailwind CSS
+- Tailwind CSS
 
-React Context + useReducer
+- React Context + useReducer
 
-Custom Hook (useBudget) para facilitar el acceso al context
+- Custom Hook (useBudget) para facilitar el acceso al context
 
-LocalStorage para persistencia de datos
+- LocalStorage para persistencia de datos
 
-Node.js
+- Node.js
 
 🎨 Funcionalidades principales
 <details> <summary>Haz clic para ver todas las funcionalidades 👀</summary>
 
-Definir presupuesto inicial al iniciar la app
+- Definir presupuesto inicial al iniciar la app
 
-Visualización de gastos con gráfica:
+- Visualización de gastos con gráfica:
 
-Presupuesto inicial
+ - Presupuesto inicial
 
-Gastos realizados
+ - Gastos realizados
 
-Presupuesto restante
+ - Presupuesto restante
 
-Gestión de gastos:
+- Gestión de gastos:
 
-Agregar gastos mediante modal con formulario
+ - Agregar gastos mediante modal con formulario
 
-Lista de gastos con acciones:
+ - Lista de gastos con acciones:
 
-Deslizar a la derecha → actualizar gasto
+ - Deslizar a la derecha → actualizar gasto
 
-Deslizar a la izquierda → eliminar gasto
+ - Deslizar a la izquierda → eliminar gasto
 
-Filtrado por categoría usando select
+- Filtrado por categoría usando select
 
-Resetear la app para reiniciar presupuesto y lista de gastos
+- Resetear la app para reiniciar presupuesto y lista de gastos
 
-Persistencia de datos en LocalStorage, por lo que los gastos se mantienen aunque cierres o recargues la página
+- Persistencia de datos en LocalStorage, por lo que los gastos se mantienen aunque cierres o recargues la página
 
 </details>
 🧩 Custom Hook
 
 Se implementó un hook personalizado (useBudget) para:
 
-Facilitar el acceso al context de presupuesto y gastos
+- Facilitar el acceso al context de presupuesto y gastos
 
-Evitar repetir useContext(BudgetContext) en cada componente
+- Evitar repetir useContext(BudgetContext) en cada componente
 
 Ejemplo de uso:
 
@@ -103,7 +103,7 @@ Carpeta dist lista para deploy en Netlify, Vercel o cualquier servidor estático
 📈 Capturas de pantalla
 
 
-![Pantalla principal](screenshots/capl.png)
+![Pantalla principal](screenshots/cap1.png)
 ![Modal agregar gasto](screenshots/cap3.png)
 ![Lista de gastos](screenshots/cap4.png)
 
@@ -113,8 +113,8 @@ Carpeta dist lista para deploy en Netlify, Vercel o cualquier servidor estático
 
 💡 Notas
 
-Los datos se guardan en LocalStorage, permaneciendo al recargar la página
+- Los datos se guardan en LocalStorage, permaneciendo al recargar la página
 
-Fácil de extender para sincronización con backend o base de datos remota
+- Fácil de extender para sincronización con backend o base de datos remota
 
-Código limpio y modular gracias a Context + Reducer y Custom Hook
+- Código limpio y modular gracias a Context + Reducer y Custom Hook
