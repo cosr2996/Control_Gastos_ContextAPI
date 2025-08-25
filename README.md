@@ -20,7 +20,7 @@ Persistir datos en LocalStorage
 
 🚀 Tecnologías utilizadas
 
-React
+- React
 
 TypeScript
 
@@ -102,7 +102,6 @@ Carpeta dist lista para deploy en Netlify, Vercel o cualquier servidor estático
 
 📈 Capturas de pantalla
 
-Agrega tus imágenes dentro de /screenshots y enlázalas así:
 
 ![Pantalla principal](screenshots/capl.png)
 ![Modal agregar gasto](screenshots/cap3.png)
