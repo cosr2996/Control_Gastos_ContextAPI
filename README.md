@@ -43,21 +43,21 @@ Persistir datos en LocalStorage
 
 - Visualización de gastos con gráfica:
 
- - Presupuesto inicial
+	 - Presupuesto inicial
 
- - Gastos realizados
+	 - Gastos realizados
 
- - Presupuesto restante
+	 - Presupuesto restante
 
 - Gestión de gastos:
 
- - Agregar gastos mediante modal con formulario
+	 - Agregar gastos mediante modal con formulario
 
- - Lista de gastos con acciones:
+	 - Lista de gastos con acciones:
 
- - Deslizar a la derecha → actualizar gasto
+		 - Deslizar a la derecha → actualizar gasto
 
- - Deslizar a la izquierda → eliminar gasto
+		 - Deslizar a la izquierda → eliminar gasto
 
 - Filtrado por categoría usando select
 
